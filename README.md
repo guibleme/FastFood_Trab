@@ -21,8 +21,8 @@ As seguintes implementações estão listadas para futuras atualizações
 * Interface Mobile (PWA)
 
 ## Colaboradores
-Guilherme Leme - guilherme.leme@edu.unipar.br
-Rodolfo Becker - rodolfo.becker@edu.unipar.br
-Maikon Pastor - maikon.pastor@edu.unipar.br
-Eduardo Sobrinho - eduardo.sobrinho@edu.unipar.br
+* Guilherme Leme - guilherme.leme@edu.unipar.br
+* Rodolfo Becker - rodolfo.becker@edu.unipar.br
+* Maikon Pastor - maikon.pastor@edu.unipar.br
+* Eduardo Sobrinho - eduardo.sobrinho@edu.unipar.br
 
