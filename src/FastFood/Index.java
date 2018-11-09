@@ -27,8 +27,8 @@ public class Index extends Application {
         stage.show();
     }
     
-    public static void irParaPrincipal() throws IOException {
-        Parent root = FXMLLoader.load(Index.class.getResource("View/Index.fxml"));
+    public static void irParaHome() throws IOException {
+        Parent root = FXMLLoader.load(Index.class.getResource("/View/Index.fxml"));
         scene.setRoot(root);
         stage.setMaximized(true);
     }
