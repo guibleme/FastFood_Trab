@@ -41,7 +41,7 @@ public class EstoqueDAO {
         }
     };
     
-    public List<Estoque> findAll() throws Exception {
+    public List<Estoque> listaEstoque() throws Exception {
 
         String sql = "SELECT *" +
                        "FROM Estoque";

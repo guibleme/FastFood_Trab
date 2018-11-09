@@ -13,7 +13,7 @@ public class ConnectionFactory {
         return DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/jdbc",
                 "postgres",
-                ""
+                "12345"
         );
     }
 }

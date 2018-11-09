@@ -2,14 +2,9 @@ package Controller;
 
 import FastFood.Index;
 import Infra.ConnectionFactory;
-import Model.Colaborador;
-import java.io.IOException;
 import java.net.URL;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -53,9 +48,9 @@ public class LoginController implements Initializable {
     
     public boolean validaLogin(String usuario, String senha) throws Exception {
         
-        String sql = "SELECT COUNT(CodColaborador)" +
-                       "FROM Colaboradores" +
-                      "WHERE Usuario LIKE ?" + 
+        String sql = "SELECT COUNT(CodColaborador) " +
+                       "FROM Colaboradores " +
+                      "WHERE Usuario LIKE ? " + 
                         "AND Senha = ?";
 
         con = ConnectionFactory.conectaBanco();

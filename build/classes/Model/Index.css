@@ -2,6 +2,9 @@
  * Empty Stylesheet file.
  */
 
-.mainFxmlClass {
-
+.titulo {
+    -fx-underline: true;
+    -font-style: 'Tahoma';
+    -fx-font-size: 14px;
+    -fx-font-weight: bold; 
 }
