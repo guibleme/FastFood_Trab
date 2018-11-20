@@ -50,7 +50,7 @@
                   <Font size="25.0" />
                </font>
             </Label>
-            <Label layoutX="25.0" layoutY="50.0" text="120">
+            <Label layoutX="25.0" layoutY="50.0" text="300">
                <font>
                   <Font size="48.0" />
                </font>
@@ -60,7 +60,7 @@
                   <Font size="24.0" />
                </font>
             </Label>
-            <Label layoutX="32.0" layoutY="120.0" text="10">
+            <Label layoutX="32.0" layoutY="120.0" text="15">
                <font>
                   <Font size="14.0" />
                </font>
@@ -75,7 +75,7 @@
                   <Font size="25.0" />
                </font>
             </Label>
-            <Label layoutX="25.0" layoutY="50.0" text="120">
+            <Label layoutX="25.0" layoutY="50.0" text="43">
                <font>
                   <Font size="48.0" />
                </font>
@@ -85,38 +85,49 @@
                   <Font size="24.0" />
                </font>
             </Label>
-            <Label layoutX="32.0" layoutY="120.0" text="10">
+            <Label layoutX="37.0" layoutY="120.0" text="5" textAlignment="RIGHT">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <Text layoutX="53.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="itens" />
+            <Text layoutX="48.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="itens" />
          </children>
       </Pane>
       <TableView layoutX="42.0" layoutY="312.0" prefHeight="372.0" prefWidth="683.0" style="-fx-background-color: lightgrey; -fx-background-radius: 5px;">
         <columns>
-          <TableColumn prefWidth="75.0" text="C1" />
-          <TableColumn prefWidth="75.0" text="C2" />
+          <TableColumn text="ID" />
+          <TableColumn prefWidth="474.0" text="Nome" />
+            <TableColumn prefWidth="128.0" text="Qtd." />
         </columns>
       </TableView>
       <Pane layoutX="773.0" layoutY="108.0" prefHeight="575.0" prefWidth="462.0" style="-fx-background-color: lightgrey; -fx-background-radius: 5px;">
          <children>
-            <ImageView fitHeight="195.0" fitWidth="399.0" layoutX="31.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" style="-fx-background-color: white;" />
-            <Label layoutX="31.0" layoutY="244.0" text="Nome do produto">
+            <ImageView fitHeight="213.0" fitWidth="393.0" layoutX="31.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" style="-fx-background-color: white;">
+               <image>
+                  <Image url="@../../../../../Downloads/WhopperFurioso_detail.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="31.0" layoutY="244.0" text="Whopper Furioso">
                <font>
                   <Font size="36.0" />
                </font>
             </Label>
-            <Label layoutX="31.0" layoutY="297.0" text="Seção">
+            <Label layoutX="32.0" layoutY="307.0" text="Comidas">
                <font>
-                  <Font size="36.0" />
+                  <Font size="24.0" />
                </font>
             </Label>
-            <Label layoutX="146.0" layoutY="297.0" text="Seção">
+            <Label layoutX="32.0" layoutY="345.0" text="20">
                <font>
-                  <Font size="36.0" />
+                  <Font size="24.0" />
                </font>
             </Label>
+            <Label layoutX="63.0" layoutY="345.0" text="und.">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <TextArea editable="false" layoutX="32.0" layoutY="395.0" prefHeight="156.0" prefWidth="399.0" style="-fx-background-color: lightgrey; -fx-background-radius: 5px;" text="Pão com gergelim, um suculento hambúrguer de pura carne bovina, queijo, bacon, alface, tomate, maionese, pimenta jalapeño, cebolas crocantes levemente apimentadas e um delicioso molho furioso. Imagem meramente ilustrativa." wrapText="true" />
          </children>
       </Pane>
    </children>
